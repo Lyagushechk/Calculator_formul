@@ -9,7 +9,7 @@ namespace Calculator_foormul
         
         public NpgsqlConnection(string connectionString)
         {
-            ConnectionString = "Host=localhost;Port=5432;Database=PostgreSQL;Username=postgresql;Password=12345111;";
+            ConnectionString = "Host=localhost;Port=5432;Database=PostgreSQL;Username=posgresql;Password=12345111;";
             NpgsqlConnection connection = new NpgsqlConnection(connectionString);
         }
     }
